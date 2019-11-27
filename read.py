@@ -16,3 +16,8 @@ print(len(data[0]))
 print(len(data[1]))
 print('檔案讀取完了，總共有', len(data), '筆資料')
 
+new = []
+for d in data:
+	if len(d) < 100:
+		new.append(new)
+print('一共有',len(new),'筆的留言少於100個字母')
